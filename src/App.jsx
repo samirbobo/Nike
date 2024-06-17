@@ -1,3 +1,24 @@
+import Hero from "./Sections/Hero";
+import CustomerReviews from "./Sections/CustomerReviews";
+import PopularProduct from "./Sections/PopularProduct";
+import Services from "./Sections/Services";
+import SpecialOffer from "./Sections/SpecialOffer";
+import Subscribe from "./Sections/Subscribe";
+import SuperQuality from "./Sections/SuperQuality";
+import Footer from "./Sections/Footer";
+
 export default function App() {
-  return <h1 className="text-2xl font-bold underline">Hello world!</h1>;
+  return (
+    <main>
+      Nav
+      <Hero />
+      <PopularProduct />
+      <SuperQuality />
+      <Services />
+      <SpecialOffer />
+      <CustomerReviews />
+      <Subscribe />
+      <Footer />
+    </main>
+  );
 }
