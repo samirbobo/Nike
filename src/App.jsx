@@ -6,11 +6,12 @@ import SpecialOffer from "./Sections/SpecialOffer";
 import Subscribe from "./Sections/Subscribe";
 import SuperQuality from "./Sections/SuperQuality";
 import Footer from "./Sections/Footer";
+import Nav from "./Components/Nav";
 
 export default function App() {
   return (
     <main>
-      Nav
+      <Nav />
       <Hero />
       <PopularProduct />
       <SuperQuality />
