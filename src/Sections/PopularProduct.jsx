@@ -3,7 +3,7 @@ import PopularProductCard from "../Components/PopularProductCard";
 export default function PopularProduct() {
   return (
     <section id="products" className="padding max-container max-sm:mt-12">
-      <h2 className="font-bold text-4xl font-palanquin">
+      <h2 className="heading-section">
         Our <span className="text-coral-red">Popular</span> Products
       </h2>
 
