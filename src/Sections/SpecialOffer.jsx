@@ -15,7 +15,7 @@ export default function SpecialOffer() {
         />
       </div>
       <article className="flex-1">
-        <h2 className="font-palanquin capitalize font-bold text-4xl">
+        <h2 className="heading-section">
           <span className="text-coral-red"> Special </span> Offer
         </h2>
         <p className="mt-4 info-text">

@@ -8,7 +8,7 @@ export default function SuperQuality() {
       className="padding flex max-lg:flex-col items-center gap-10 w-full max-container"
     >
       <article className="flex-1">
-        <h2 className="font-palanquin capitalize font-bold lg:max-w-lg text-4xl mb-4">
+        <h2 className="heading-section lg:max-w-lg mb-4">
           We Provide You
           <span className="text-coral-red"> Super Quality </span> Shoes
         </h2>
