@@ -41,7 +41,7 @@ export default function ProductDetails() {
         <p className="lg:max-w-lg mt-6 mb-12 info-text">
           Our dedication to detail and excellence ensures your satisfaction
         </p>
-        <Button label="Go Back" link="/" />
+        <Button label="Go Back" link2="/" />
       </article>
       <div className="flex-1 flex justify-center items-center">
         <img

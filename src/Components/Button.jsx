@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Button({
   label,
   iconURL,
@@ -6,6 +8,7 @@ export default function Button({
   textColor,
   fullWidth,
   link,
+  link2,
 }) {
   return (
     <button
@@ -16,7 +19,13 @@ export default function Button({
           : "bg-coral-red hover:bg-[#DD3925] transition-colors duration-200 text-white border-coral-red"
       } rounded-full ${fullWidth && "w-full"}`}
     >
-      {link ? <a href={link}>{label}</a> : label}
+      {link ? (
+        <a href={link}>{label}</a>
+      ) : link2 ? (
+        <Link to={link2}>{label}</Link>
+      ) : (
+        label
+      )}
 
       {iconURL && (
         <img
