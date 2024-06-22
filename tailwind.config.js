@@ -27,6 +27,7 @@ export default {
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
+        coral: "0px 0px 0px 700px rgb(255 ,100 ,82)",
       },
       backgroundImage: {
         hero: "url('assets/images/collection-background.svg')",

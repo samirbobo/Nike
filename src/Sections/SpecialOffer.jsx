@@ -29,7 +29,7 @@ export default function SpecialOffer() {
           nothing short of exceptional.
         </p>
         <div className="flex flex-wrap gap-4 mt-12">
-          <Button label="Shop Now" iconURL={arrowRight} />
+          <Button label="Shop Now" link="#products" iconURL={arrowRight} />
           <Button
             label="Learn more"
             backgroundColor="bg-white"

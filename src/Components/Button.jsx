@@ -5,6 +5,7 @@ export default function Button({
   borderColor,
   textColor,
   fullWidth,
+  link,
 }) {
   return (
     <button
@@ -12,10 +13,10 @@ export default function Button({
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
-          : "bg-coral-red text-white border-coral-red"
+          : "bg-coral-red hover:bg-[#DD3925] transition-colors duration-200 text-white border-coral-red"
       } rounded-full ${fullWidth && "w-full"}`}
     >
-      {label}
+      {link ? <a href={link}>{label}</a> : label}
 
       {iconURL && (
         <img

@@ -17,12 +17,14 @@
     max-width: 1440px;
     margin: 0 auto;
   }
-
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
   .heading-section {
     @apply font-palanquin text-4xl capitalize font-bold;
+  }
+  .nav-links {
+    @apply lg:flex lg:flex-1 lg:justify-center lg:items-center lg:gap-16 lg:h-auto max-lg:absolute top-10 max-lg:bg-slate-100 w-full max-lg:rounded-lg max-lg:z-10 max-lg:h-0 max-lg:p-0 transition-all ease-in-out duration-300  overflow-hidden;
   }
 }
 
