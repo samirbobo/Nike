@@ -14,7 +14,7 @@ export default function PopularProduct() {
 
       <article className="mt-16 flex sm:gap-6 gap-14 justify-center flex-wrap">
         {products.map((product) => (
-          <PopularProductCard key={product.name} {...product} />
+          <PopularProductCard key={product.id} {...product} />
         ))}
       </article>
     </section>

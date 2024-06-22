@@ -4,8 +4,8 @@ import { footerLinks, socialMedia } from "../constants";
 
 export default function Footer() {
   return (
-    <footer className="bg-black max-container padding-x padding-t pb-8">
-      <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
+    <footer className="bg-black  padding-x padding-t pb-8">
+      <div className="max-container flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div>
           <a href="/">
             <img
@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="text-white-400 mt-24 max-sm:flex-col max-sm:items-center flex justify-between">
+      <div className="max-container text-white-400 mt-24 max-sm:flex-col max-sm:items-center flex justify-between">
         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat">
           <img
             src={copyrightSign}

@@ -18,7 +18,7 @@ export default function Hero() {
             Our Summer collections
           </p>
           <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-            <span className="xl:whitespace-nowrap xl:bg-white relative z-10 pr-10">
+            <span className="xl:whitespace-nowrap xl:bg-white relative lg:z-10 pr-10">
               The New Arrival
             </span>
             <br />
@@ -28,7 +28,7 @@ export default function Hero() {
             Discover stylish Nike arrivals, quality comfort, and innovation for
             your active life.
           </p>
-          <Button label="Shop Now" iconURL={arrowRight} />
+          <Button label="Shop Now" iconURL={arrowRight} link="#products" />
           <div className="flex flex-wrap justify-start items-start mt-20 gap-16 w-full">
             {statistics.map((stat) => (
               <div key={stat.label}>

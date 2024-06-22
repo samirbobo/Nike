@@ -52,21 +52,25 @@ export const statistics = [
 
 export const products = [
   {
+    id: 1,
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
     price: "$200.20",
   },
   {
+    id: 2,
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
     price: "$210.20",
   },
   {
+    id: 3,
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
     price: "$220.20",
   },
   {
+    id: 4,
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
     price: "$230.20",
@@ -102,7 +106,7 @@ export const reviews = [
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
+    customerName: "Samir Abdo",
     rating: 4.5,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
@@ -134,8 +138,11 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      {
+        name: "samirelanany555@gmail.com",
+        link: "mailto:samirelanany555@gmail.com",
+      },
+      { name: "+01211672995", link: "tel:+01211672995" },
     ],
   },
 ];

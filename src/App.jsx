@@ -1,25 +1,21 @@
-import Hero from "./Sections/Hero";
-import CustomerReviews from "./Sections/CustomerReviews";
-import PopularProduct from "./Sections/PopularProduct";
-import Services from "./Sections/Services";
-import SpecialOffer from "./Sections/SpecialOffer";
-import Subscribe from "./Sections/Subscribe";
-import SuperQuality from "./Sections/SuperQuality";
-import Footer from "./Sections/Footer";
-import Nav from "./Components/Nav";
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import Home from "./Pages/Home";
+import ProductDetails from "./Pages/ProductDetails";
 
 export default function App() {
-  return (
-    <main>
-      <Nav />
-      <Hero />
-      <PopularProduct />
-      <SuperQuality />
-      <Services />
-      <SpecialOffer />
-      <CustomerReviews />
-      <Subscribe />
-      <Footer />
-    </main>
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+        <Route path="/" element={<Home />} />
+        <Route path="/products/:id" element={<ProductDetails />} />
+      </>
+    )
   );
+
+  return <RouterProvider router={router} />;
 }

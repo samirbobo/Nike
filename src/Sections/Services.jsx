@@ -6,9 +6,9 @@ export default function Services() {
       {services.map((service) => (
         <div
           key={service.label}
-          className="px-10 py-16 rounded-[20px] shadow-3xl bg-white"
+          className="px-10 py-16 group rounded-[20px] shadow-3xl bg-white overflow-hidden"
         >
-          <div className="w-11 h-11 flex justify-center items-center bg-coral-red rounded-full">
+          <div className="w-11 h-11 flex justify-center transition-all duration-1000 ease-in-out items-center bg-coral-red group-hover:shadow-coral rounded-full">
             <img
               src={service.imgURL}
               alt="service image"
@@ -16,10 +16,10 @@ export default function Services() {
               height={24}
             />
           </div>
-          <h2 className="font-palanquin font-bold leading-normal text-3xl mt-5">
+          <h2 className="font-palanquin font-bold leading-normal delay-200 text-3xl mt-5 group-hover:text-white">
             {service.label}
           </h2>
-          <p className="text-slate-gray font-montserrat leading-normal break-words text-lg mt-3">
+          <p className="text-slate-gray font-montserrat leading-normal delay-200 break-words text-lg mt-3 group-hover:text-white">
             {service.subtext}
           </p>
         </div>
